@@ -19,6 +19,7 @@ SoftAssert softAssert = new SoftAssert();
     {
         this.driver = driver;
 
+
         orLogin = PageFactory.initElements (driver, LoginOR.class);
     }
 
