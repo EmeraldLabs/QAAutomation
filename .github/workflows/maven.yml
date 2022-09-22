@@ -22,5 +22,10 @@ jobs:
         java-version: '18'
         distribution: 'temurin'
         cache: maven
+        
+    - name: Install Google Chrome
+      run: chmod +x ./scrip[ts/InstallChrome.sh
+                        ./scripts/InstallChrome.sh
+                        
     - name: Build with Maven
       run: mvn -B package --file pom.xml
