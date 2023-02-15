@@ -2,7 +2,7 @@ name: Cypress Tests
 on:
   push:
     branches:
-      - main
+      - develope
 jobs:
   test:
     runs-on: ubuntu-latest
